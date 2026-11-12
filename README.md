@@ -53,7 +53,7 @@ src/
 - `pnpm lint` / `pnpm lint:style` / `pnpm format`
 - 提交时 Husky + lint-staged 自动校验，commitlint 约束提交信息（如 `feat: 新增优惠券模块`）
 - 运行效果图
-- <img width="3544" height="1896" alt="image" src="https://github.com/user-attachments/assets/dd898a2f-5342-4d46-aa82-851a3b39c694" />
+<img width="3520" height="1764" alt="image" src="https://github.com/user-attachments/assets/72936403-1770-426f-86f0-f2c99ce55dda" />
 <img width="3508" height="1744" alt="image" src="https://github.com/user-attachments/assets/71fea867-a592-4a4c-ba50-0ec18aa5b5ff" />
 <img width="3566" height="1668" alt="image" src="https://github.com/user-attachments/assets/68f2a01b-f79e-4461-af0a-5b99b0586394" />
 <img width="3488" height="1670" alt="image" src="https://github.com/user-attachments/assets/3a91a717-1ed2-4ca8-b58b-3316852046a3" />
