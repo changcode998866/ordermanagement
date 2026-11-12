@@ -1,0 +1,111 @@
+:root {
+  --el-color-primary: #ff6a00;
+  --el-color-primary-light-3: #ff9640;
+  --el-color-primary-light-5: #ffb580;
+  --el-color-primary-light-7: #ffd2b3;
+  --el-color-primary-light-8: #ffe1cc;
+  --el-color-primary-light-9: #fff0e6;
+  --el-color-primary-dark-2: #c50;
+  --app-bg: #f5f6f8;
+}
+
+html.dark {
+  --el-color-primary-light-3: #b35217;
+  --el-color-primary-light-5: #803d14;
+  --el-color-primary-light-7: #4d2810;
+  --el-color-primary-light-8: #3a200e;
+  --el-color-primary-light-9: #26160b;
+  --el-color-primary-dark-2: #f83;
+  --app-bg: #141414;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    sans-serif;
+  color: var(--el-text-color-primary);
+  background: var(--app-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+#nprogress .bar {
+  background: $brand-color !important;
+}
+
+/* 页面通用结构 */
+.page-card {
+  padding: 18px 20px;
+  margin-bottom: 16px;
+  background: var(--el-bg-color);
+  border-radius: 8px;
+}
+
+.search-form {
+  .el-form-item {
+    margin-bottom: 12px;
+  }
+
+  .el-input,
+  .el-select {
+    width: 200px;
+  }
+}
+
+.table-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+.table-pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.text-danger {
+  color: var(--el-color-danger);
+}
+
+.text-secondary {
+  color: var(--el-text-color-secondary);
+}
+
+.text-line-through {
+  margin-left: 6px;
+  font-size: 12px;
+  color: var(--el-text-color-placeholder);
+  text-decoration: line-through;
+}
+
+.fade-slide-enter-active,
+.fade-slide-leave-active {
+  transition: all 0.25s;
+}
+
+.fade-slide-enter-from {
+  opacity: 0;
+  transform: translateX(-12px);
+}
+
+.fade-slide-leave-to {
+  opacity: 0;
+  transform: translateX(12px);
+}
